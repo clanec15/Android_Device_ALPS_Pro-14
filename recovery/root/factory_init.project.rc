@@ -1,0 +1,39 @@
+mkdir /data/misc/sensors 0664 system system
+
+service msensord /vendor/bin/msensord
+    user system
+    group system
+    oneshot
+
+service akmd8963 /vendor/bin/akmd8963
+    disabled
+    user system
+    group system
+
+service af7133d /system/bin/af7133d
+    disabled
+    user system
+    group system
+    
+service qmcX983   /system/bin/qmcX983
+    disabled
+    user  system
+    group system
+    class main
+    oneshot
+
+on post-fs
+
+
+    
+ 		
+ 
+    
+
+
+on boot
+
+
+
+
+

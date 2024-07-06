@@ -1,6 +1,10 @@
-Unofficial TWRP Device tree for the ALPS Pro 14 tablet (K1006R9)
-This tablet might have spoofed (faked) specs such as CPU, RAM capacity, flash capacity and Android version
+# Android device tree for X20 X11Pro (K1006R9)
 
-At the moment this TWRP build might not be 100% functional
-
-Generated using twrpdtgen
+```
+#
+# Copyright (C) 2024 The Android Open Source Project
+# Copyright (C) 2024 SebaUbuntu's TWRP device tree generator
+#
+# SPDX-License-Identifier: Apache-2.0
+#
+```
