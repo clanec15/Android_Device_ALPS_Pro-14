@@ -14,9 +14,10 @@
 | CPU  | MTK6735 (ARM-A53, 1.3GHz clock, 4 cores)[^1]     |
 | GPU |  Mali-T720[^2] |
 | eMMC | Samsung Q316BB, 14.68GB Usable (15.02GB Real) [^3]  |
-| RAM    | 2GB (1.3GB Usable)    |
+| RAM    | 1.5GB (1.3GB Usable)    |
 | Camera | 2, Front and Back facing, (Specs unknown) |
 | Android Version | Android 7[^4] |
+| Screen | JD9365DA-H3 800x1280 TFT LCD (16.7M Colors)[^5]|
 
 
 
@@ -83,4 +84,6 @@ sudo mtk w recovery ~/location/of/recovery.img
 [^2]: Sourced with official Mediatek [datasheet](https://www.mediatek.com/products/smartphones-2/mt6735)
 [^3]: Sourced via ```cat /sys/class/block/mmcblk0/device/name``` and [link](https://forum.gsmhosting.com/vbb/f664/g532m-boot-repair-done-again-thanks-medusa-team-2565794/)
 [^4]: Sourced via ```getprop ro.build.version.release``` and confirmed with SDK Version (24) ```getprop ro.build.version.sdk```
+[^5]: Sourced via hidden app ```com.zte.engineer```
+
 
