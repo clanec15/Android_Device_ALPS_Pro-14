@@ -86,6 +86,6 @@ sudo mtk w recovery ~/location/of/recovery.img
 [^2]: Sourced with official Mediatek [datasheet](https://www.mediatek.com/products/smartphones-2/mt6735)
 [^3]: Sourced via ```cat /sys/class/block/mmcblk0/device/name``` and [link](https://forum.gsmhosting.com/vbb/f664/g532m-boot-repair-done-again-thanks-medusa-team-2565794/)
 [^4]: Sourced via ```getprop ro.build.version.release``` and confirmed with SDK Version (24) ```getprop ro.build.version.sdk```
-[^5]: Sourced via hidden app ```com.zte.engineer```
+[^5]: Sourced via hidden app ```com.zte.engineer``` (Won't and cannot distribute)
 [^6]: Suspected use of Flash/RAM combo chip KMQ310016M-B419(16GB Flash + 1.5GB RAM LPDDR3) [^5]
 
