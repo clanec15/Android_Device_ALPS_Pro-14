@@ -14,8 +14,10 @@
 | CPU  | MTK6735 (ARM-A53, 1.3GHz clock, 4 cores)[^1]     |
 | GPU |  Mali-T720[^2] |
 | eMMC | Samsung Q316BB, 14.68GB Usable (15.02GB Real) [^3]  |
-| RAM    | 1.5GB (1.3GB Usable)    |
-| Camera | 2, Front and Back facing, (Specs unknown) |
+| RAM    | 1.5GB (1.3GB Usable) [^6]    |
+| Camera(s) | 2 |
+| Back Camera | GC2385 GalaxyCore? 2MP, 1/5 Inch, CMOS[^5] |
+| Front Camera | GC0339/OV6930?, <1MP. 1/10 Inch, Unknown[^5] |
 | Android Version | Android 7[^4] |
 | Screen | JD9365DA-H3 800x1280 TFT LCD (16.7M Colors)[^5]|
 
@@ -85,5 +87,5 @@ sudo mtk w recovery ~/location/of/recovery.img
 [^3]: Sourced via ```cat /sys/class/block/mmcblk0/device/name``` and [link](https://forum.gsmhosting.com/vbb/f664/g532m-boot-repair-done-again-thanks-medusa-team-2565794/)
 [^4]: Sourced via ```getprop ro.build.version.release``` and confirmed with SDK Version (24) ```getprop ro.build.version.sdk```
 [^5]: Sourced via hidden app ```com.zte.engineer```
-
+[^6]: Suspected use of Flash/RAM combo chip KMQ310016M-B419(16GB Flash + 1.5GB RAM LPDDR3) [^5]
 
