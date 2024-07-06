@@ -1,4 +1,4 @@
-# Android device tree for X20 X11Pro (K1006R9)
+# Android device tree for ALPS Pro 14 (K1006R9)
 
 ```
 #
@@ -8,3 +8,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 ```
+
+Compile using TWRP Minimal branch ```twrp-7.1```
+This TWRP device tree might be incomplete and has not been fully tested
+Use at your own risk
