@@ -63,6 +63,8 @@ $ repo sync
 $ mkdir device && mkdir device/alps && mkdir device/alps/K1006R9
 $ cd device/alps/K1006R9
 $ git clone https://github.com/clanec15/Android_Device_ALPS_Pro-14.git
+$ mv Android_Device_ALPS_Pro-14/* .
+$ rm -rf Android_Device_Alps_Pro-14/
 $ cd .. && cd .. && cd ..
 ```
 
